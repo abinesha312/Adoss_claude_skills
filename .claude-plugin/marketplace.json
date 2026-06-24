@@ -7,9 +7,10 @@
   "description": "Claude Code skills collection — ATS-optimized LaTeX resume builder and more",
   "plugins": [
     {
-      "name": "buildResume",
+      "name": "build-resume",
       "description": "Build and generate ATS-optimized LaTeX resumes with consistent structure and keyword alignment for technical roles",
-      "source": "./plugins/buildResume"
+      "source": "./plugins/buildResume",
+      "category": "productivity"
     }
   ]
 }
