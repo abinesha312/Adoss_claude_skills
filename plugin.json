@@ -1,22 +1,12 @@
 {
-  "name": "adoss-claude-skills",
-  "display_name": "Adoss Claude Skills",
-  "description": "Claude Code skills collection — ATS-optimized LaTeX resume builder and more",
+  "name": "Adoss Claude Skills",
+  "description": "Claude Code skills collection",
   "version": "1.0.0",
-  "author": "abinesha312",
-  "repository": "https://github.com/abinesha312/Adoss_claude_skills",
   "skills": [
     {
-      "name": "latex-resume-builder",
-      "path": "buildResume/SKILL.md",
-      "description": "Generates and formats ATS-optimized LaTeX resumes with consistent structure, spacing, and keyword alignment for technical roles",
-      "triggers": [
-        "tailor my resume",
-        "rewrite bullets",
-        "ATS optimize",
-        "update my LaTeX resume",
-        "buildResume"
-      ]
+      "name": "buildResume",
+      "description": "Build and generate LaTeX resumes",
+      "path": "buildResume/SKILL.md"
     }
   ]
 }
