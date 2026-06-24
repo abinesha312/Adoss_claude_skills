@@ -1,31 +1,26 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "Adoss Claude Skills",
+  "name": "adoss-claude-skills",
   "description": "Claude Code skills collection — ATS-optimized LaTeX resume builder and more",
   "owner": {
     "name": "Abinesh",
     "email": "abinesha312@gmail.com"
   },
+  "version": "1.0.0",
   "plugins": [
     {
       "name": "buildResume",
       "displayName": "LaTeX Resume Builder",
       "description": "Build and generate ATS-optimized LaTeX resumes with consistent structure and keyword alignment for technical roles",
+      "version": "1.0.0",
       "author": {
         "name": "Abinesh",
         "email": "abinesha312@gmail.com"
       },
       "category": "productivity",
-      "version": "1.0.0",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/abinesha312/Adoss_claude_skills",
-        "path": "buildResume",
-        "ref": "main"
-      },
+      "source": "./plugins/buildResume",
       "homepage": "https://github.com/abinesha312/Adoss_claude_skills",
-      "keywords": ["resume", "latex", "ats", "career"],
-      "skills": ["./SKILL.md"]
+      "keywords": ["resume", "latex", "ats", "career"]
     }
   ]
 }

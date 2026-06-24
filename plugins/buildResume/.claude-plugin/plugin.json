@@ -1,0 +1,13 @@
+{
+  "name": "buildResume",
+  "displayName": "LaTeX Resume Builder",
+  "description": "Build and generate ATS-optimized LaTeX resumes with consistent structure and keyword alignment for technical roles",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abinesh",
+    "email": "abinesha312@gmail.com"
+  },
+  "category": "productivity",
+  "homepage": "https://github.com/abinesha312/Adoss_claude_skills",
+  "keywords": ["resume", "latex", "ats", "career"]
+}
