@@ -9,11 +9,7 @@
     {
       "name": "buildResume",
       "description": "Build and generate ATS-optimized LaTeX resumes with consistent structure and keyword alignment for technical roles",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./plugins/buildResume/skills/latex-resume-builder"
-      ]
+      "source": "./plugins/buildResume"
     }
   ]
 }

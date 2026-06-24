@@ -9,5 +9,6 @@
   },
   "category": "productivity",
   "homepage": "https://github.com/abinesha312/Adoss_claude_skills",
-  "keywords": ["resume", "latex", "ats", "career"]
+  "keywords": ["resume", "latex", "ats", "career"],
+  "skills": ["./skills"]
 }
