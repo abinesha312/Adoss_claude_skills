@@ -1,0 +1,227 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{lmodern}
+
+\usepackage{fancyhdr}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{fontawesome} 
+
+% Page geometry settings
+\geometry{left=0.3in, right=0.3in, top=0.3in, bottom=0.1in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Customizing section formatting
+\titlespacing\section{0pt}{5pt plus 2pt minus 2pt}{3pt plus 2pt minus 2pt}
+\titleformat{\section}{\bfseries\large}{}{0em}{}[\titlerule]
+
+% Custom header settings
+\fancypagestyle{plain}{
+\fancyhf{}
+\fancyfoot[C]{\thepage} 
+\renewcommand{\headrulewidth}{0pt} 
+}
+
+% Reduce space between list items
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+% Helper for right-aligning date and location
+\newcommand{\location}[2]{\hfill #1 \hfill #2}
+
+
+\begin{document}
+
+% Name and Contact Info
+\begin{center}
+    {\LARGE \textbf{Abinesh Haridoss}} \\
+    +1 346-823-9553 \textbar\ \href{mailto:abinesha312@gmail.com}{abinesha312@gmail.com} \textbar\ \href{https://github.com/abinesha312}{github.com/abinesha312} \textbar\ \href{https://www.linkedin.com/in/aharido/}{linkedin.com/in/aharido/} \textbar\ \href{https://abineshharidoss.web.app/}{abineshharidoss.web.app}
+\end{center}
+
+\vspace{-1mm}
+
+\section*{Summary}
+\vspace{1mm}
+\textbf{Lead AI/ML Engineer} with a Master's and Bachelor's in Computer Science and built robust, fair, and interpretable \textbf{generative AI systems}. I specialize in \textbf{LLM safeguards}, \textbf{fairness evaluation}, \textbf{bias mitigation}, and \textbf{alignment techniques} including RLHF and DPO. I've deployed production-grade \textbf{foundation models} on distributed infrastructure, conducted rigorous \textbf{toxicity analysis} and \textbf{robustness benchmarks}, and led cross-functional efforts to embed \textbf{trustworthy AI principles} throughout the model lifecycle.
+
+
+% Experience Section
+\section*{Professional Experience}
+\textbf{Lead Assistant Manager/Consultant - II} \location{Dec 2025 – Present} \\
+\textit{EXLServices} \hfill \textit{} \\
+\begin{itemize}
+\vspace{1mm}
+\item Architected fully autonomous \textbf{LLM agent workflows} for healthcare systems using \textbf{FastAPI} with a \textbf{three-tier fail-safe architecture}, implementing production-grade exception handling and achieving \textbf{99.9\% uptime} across distributed microservices on \textbf{Google Kubernetes Engine (GKE)}.
+\vspace{1mm}
+
+\item Orchestrated end-to-end workflow automation with \textbf{Apache Airflow DAGs}, integrating \textbf{BigQuery} for data warehousing and \textbf{Google Cloud Redis} for sub-\textbf{300ms} inference latency, processing large-scale workloads (\textbf{20GB+} per request) with real-time monitoring via \textbf{JIRA dashboards}.
+\vspace{1mm}
+
+\item Deployed \textbf{AI agents} with automated task tracking and error recovery, reducing manual intervention by \textbf{85\%} while maintaining built-in compliance and audit trails for healthcare workflows.
+\vspace{1mm}
+
+\item Implemented distributed caching strategies with \textbf{Redis} on \textbf{GCP}, optimizing high-throughput LLM inference pipelines and reducing backend query load while maintaining HIPAA-compliant data handling and encryption standards.
+\vspace{1mm}
+
+\item Architected and deployed \textbf{production-grade Agentic App} components using \textbf{MCP servers} and \textbf{LangGraph}, translating product goals into actionable engineering plans with end-to-end CI/CD observability.
+\vspace{1mm}
+
+\item Collaborated cross-functionally with \textbf{Product and Engineering} teams to deliver \textbf{customer-centric features}, communicating technical trade-offs to leadership and mentoring junior engineers on \textbf{agentic system design}.
+\end{itemize}
+
+\textbf{Associate Software Developer} \location{Feb 2023 – Jul 2023} \\
+\textit{TransUnion} \hfill \textit{} \\
+\begin{itemize}
+\vspace{1mm}
+\item Developed \textbf{fairness-aware ML models} for credit risk assessment, implementing \textbf{bias mitigation} and \textbf{fairness evaluation} metrics to ensure equitable predictions across demographic groups, improving approval fairness by \textbf{70\%}.
+\vspace{1mm}
+\item Designed \textbf{robustness benchmarks} for credit-scoring ML models using \textbf{PyTorch}, achieving \textbf{99.8\%} accuracy under adversarial conditions and improving anomaly recall by \textbf{25\%}.
+\vspace{1mm}
+\item Established \textbf{evaluation protocols} and monitoring dashboards for model safety, integrating \textbf{toxicity} and \textbf{bias metrics} to track model drift and maintain trustworthy AI standards across production systems.
+\vspace{1mm}
+\item Collaborated across product, data science, and compliance teams to embed \textbf{fairness principles} throughout the ML lifecycle, improving AI governance compliance by \textbf{30\%}.
+\vspace{1mm}
+\item Implemented \textbf{interpretability} techniques for model predictions, providing stakeholders with transparent decision explanations and enabling faster model explainability reviews by \textbf{40\%}.
+\end{itemize}
+\vspace{5mm}
+
+\textbf{Software Engineer} \location{Oct 2021 – Feb 2023} \\
+\textit{Larsen and Toubro Infotech Mindtree} \hfill \textit{} \\
+\begin{itemize}
+\vspace{1mm}
+\item Built comprehensive \textbf{evaluation frameworks} for \textbf{ML classification and regression} models, implementing \textbf{fairness metrics}, robustness testing, and safety validation protocols; achieved \textbf{92.4\%} test coverage with automated bias detection and performance regression detection.
+\vspace{1mm}
+\item Implemented end-to-end \textbf{MLOps pipelines} with automated model training, validation, and deployment gates, incorporating \textbf{bias auditing} and fairness checks to enable rapid experimentation and reduce deployment cycles by \textbf{28\%}.
+\vspace{1mm}
+\item Developed scalable ML infrastructure using \textbf{scikit-learn}, \textbf{XGBoost}, and \textbf{LightGBM} for rapid prototyping and production deployment, supporting cross-validation, hyperparameter tuning, and \textbf{A/B testing} workflows across multiple model architectures.
+\vspace{1mm}
+\item Collaborated with data science and product teams on \textbf{model governance} and ethical AI standards, documenting model trade-offs, fairness constraints, and performance baselines to ensure \textbf{responsible ML} practices throughout the development and deployment lifecycle.
+\end{itemize}
+\vspace{5mm}
+
+\textbf{Full Stack Developer} \location{Mar 2020 – Sept 2021} \\
+\textit{Tanishq \& ProwessIQ Private Limited} \hfill \textit{} \\
+\begin{itemize}
+\vspace{1mm}
+\item Implemented secure ML model serving infrastructure with comprehensive \textbf{audit logging}, \textbf{explainability} APIs, and access controls, ensuring model transparency and regulatory compliance across enterprise systems.
+
+\vspace{1mm}
+\item Designed infrastructure for responsible data handling and model evaluation, establishing automated \textbf{bias detection} and \textbf{fairness monitoring} pipelines that improved data governance by \textbf{40\%} and reduced security incidents by \textbf{30\%}.
+\vspace{1mm}
+\item Orchestrated ML infrastructure with automated testing and evaluation gates, supporting \textbf{fairness} and \textbf{safety assessments} before production deployment, reducing model-related incidents by \textbf{60\%} and ensuring \textbf{trustworthy AI} delivery.
+
+\vspace{1mm}
+\item Established monitoring systems for model performance and safety metrics, enabling real-time detection of fairness degradation and robustness issues, reducing \textbf{MTTR} for model failures by \textbf{42\%} and maintaining enterprise SLAs.
+\vspace{1mm}
+
+\end{itemize}
+\vspace{3mm}
+
+\section*{Internships}
+
+\vspace{3mm}
+\textbf{AI/ML Software and Web Development Intern} \location{Sept 2025 – Jan 2026} \\
+\textit{Essential Knowledge Systems, LLC} \hfill \textit{} \\
+\begin{itemize}
+\vspace{1mm}
+\item Developed a knowledge distillation pipeline for the \textbf{GPT-OSS} model using \textbf{Qwen-3 1.5B}, implementing custom loss functions at the \textbf{PyTorch} layer for efficient model inference.
+\vspace{1mm}
+\item Designed a web-based wizard to automate the end-to-end distillation workflow, enabling users to configure and trigger model compression directly from dataset inputs through an intuitive multi-step UI.
+\vspace{1mm}
+\end{itemize}
+\vspace{3mm}
+
+\textbf{Graduate-level research intern} \location{Sept 2025 – Feb 2026} \\
+\textit{Turing} \hfill \textit{} \\
+\begin{itemize}
+\item Designed \textbf{LLM fine-tuning} workflows with automated \textbf{fairness evaluation} and \textbf{bias auditing} mechanisms, improving labeling consistency by \textbf{25\%} and reducing annotation errors by \textbf{30\%} through rigorous quality gates.
+\vspace{1mm}
+\item Orchestrated multi-modal \textbf{LLM training pipelines} using \textbf{PyTorch} and \textbf{HuggingFace Transformers}, implementing \textbf{instruction tuning} and \textbf{alignment protocols} to enhance model safety and reduce harmful outputs by \textbf{35\%}.
+\vspace{1mm}
+\item Conducted \textbf{bias audits} and \textbf{fairness evaluations} on training data, identifying and mitigating demographic disparities to improve model safety by \textbf{25\%}.
+\vspace{1mm}
+\end{itemize}
+
+\vspace{3mm}
+\textbf{Summer Intern/AI-ML Engineer} \location{Jul 2025 – September 2025} \\
+\textit{Worlds Enterprise Inc.} \hfill \textit{} \\
+\begin{itemize}
+\item Implemented \textbf{red teaming pipelines} to systematically identify adversarial inputs and safety gaps in \textbf{foundation models}, enabling proactive \textbf{robustness} evaluation and iterative model hardening.
+\vspace{1mm}
+
+\item Developed \textbf{bias mitigation strategies} for anomaly detection systems, conducting \textbf{bias audits} and achieving \textbf{25\%} improvement in fairness across demographic groups.
+\vspace{1mm}
+\item Architected \textbf{explainability} frameworks for LLM-driven workflows, integrating \textbf{interpretability} techniques to provide transparent reasoning and audit trails, improving user trust and regulatory compliance.
+\end{itemize}
+\vspace{4mm}
+
+\textbf{AI Engineer/Student Assistant} \location{May 2024 – May 2025} \\
+\textit{University of North Texas} \hfill \textit{} \\
+\hfill  \hfill 
+\begin{itemize}
+
+\item Deployed \textbf{foundation model evaluation frameworks} across \textbf{80+ departments}, implementing \textbf{robustness benchmarks}, \textbf{toxicity analysis}, and \textbf{fairness assessment protocols} to ensure safe model deployment.
+\vspace{1mm}
+\item Configured and deployed \textbf{multi-modal foundation models} (LLaMA 3.2 90B) on GPU infrastructure, implementing \textbf{prompt engineering} best practices and \textbf{instruction tuning} to enhance model alignment and reduce hallucinations.
+\vspace{1mm}
+\item Designed \textbf{rigorous evaluation protocols} with custom \textbf{bias audit frameworks}, measuring model fairness across protected attributes and toxicity thresholds, reducing failure rates by \textbf{30\%} and improving model trustworthiness.
+\vspace{1mm}
+\item Conducted systematic \textbf{red teaming} to identify model vulnerabilities, documenting adversarial examples and safety edge cases, informing iterative model improvements and safeguard development for \textbf{responsible AI}.
+\vspace{1mm}
+\item Fine-tuned \textbf{foundation models} using \textbf{PyTorch} with domain-specific, bias-balanced datasets, improving model safety and fairness while maintaining \textbf{15\%} reduction in demographic bias and \textbf{20\%} improvement in task performance.
+
+\end{itemize}
+
+\vspace{-3pt}
+
+\section*{Projects}
+
+\vspace{3mm}
+\begin{minipage}[t]{\textwidth}
+\textbf{Fraud Folio} \textbar\ \textit{AI, Fraud Detection, Meta Llama 3} \hfill  \hfill \href{https://github.com/abinesha312/hack_unt_financial_fraud.git}{\faExternalLink}
+
+\end{minipage}
+
+\begin{itemize}
+\item Engineered a custom \textbf{anomaly detection pipeline} utilizing \textbf{Meta Llama 3} with CUDA optimization for real-time fraud detection, demonstrating expertise in production-ready LLM systems.
+\end{itemize}
+
+\vspace{3mm}
+
+\begin{minipage}[t]{\textwidth}
+    \textbf{Hybrid Vision Transformer for Small-Scale Image Classification} \textbar\ \textit{PyTorch, Transformers, MixUp, CutMix} \hfill \href{https://github.com/abinesha312/vision-transformer-cifar}{\faExternalLink}
+\end{minipage}
+\begin{itemize}
+    \item Developed a \textbf{Hybrid Vision Transformer} combining CNNs and transformers for CIFAR-10 classification, improving feature extraction and model interpretability through attention visualization. 
+\end{itemize}
+
+\section*{Education}
+\vspace{3mm}
+\textbf{Master of Science in Computer Science} \location{Aug. 2023 – 2025} \\
+\textit{University of North Texas} \hfill \textit{} \\ 
+Relevant Courses: Machine Learning, Algorithms, AI Software Development, Information Retrieval, Big Data and Data Science
+
+\vspace{1mm}
+
+\textbf{Bachelor of Engineering in Information Science and Engineering} \location{May. 2021} \\
+\textit{Panimalar Engineering college Affiliated to Anna University } \hfill \textit{} \\ 
+Relevant Courses: Operating Systems, Data Structures, DBMS, Computer Networks, Object Oriented Concepts, deep learning
+
+\section*{Technical Skills}
+\vspace{3mm}
+\begin{itemize}
+\item \textbf{Programming Languages:} Python, C++, JavaScript, TypeScript, Bash, PowerShell, Shell Scripting.
+\item \textbf{ML/DL Frameworks:} PyTorch, TensorFlow, HuggingFace Transformers, ONNX, LangChain, OpenAI API
+\item \textbf{Responsible AI \& Safety:} Fairness Evaluation, Bias Auditing, Toxicity Analysis, Red Teaming, Model Alignment, RLHF, DPO, Instruction Tuning, Explainability, Interpretability
+\item \textbf{Distributed Training:} PyTorch (FSDP, DDP), Distributed Evaluation Frameworks, NVIDIA Nsight Systems
+\item \textbf{Databases:} Redis, MongoDB, DynamoDB, Postgres, Databricks, MySQL
+\item \textbf{Cloud \& DevOps:} AWS (Lambda, API Gateway, S3, ECS, EKS), Docker, Terraform, MLOps, Model Monitoring
+
+\end{itemize}
+\vspace{1mm}
+\end{document}

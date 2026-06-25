@@ -249,6 +249,8 @@ When content exceeds 2 pages:
 
 Start from this template for every tailoring request. **Modify Summary, all Experience/Internship bullet content, Projects bullets (if needed), and Technical Skills.** Preserve LaTeX structure, spacing commands, and all fixed fields. Rewrite every bullet to align with the tailored Summary — do not leave baseline wording unchanged.
 
+**Baseline bullets reflect Abinesh's actual work experience** (V75 resume): titles, companies, dates, and projects stay fixed; experience/internship bullets describe real roles and tools (e.g., scikit-learn/XGBoost at LTIMindtree, GKE/Airflow at EXLServices). When tailoring for a JD, reframe bullets — never invent employers, roles, or metrics not grounded in this baseline.
+
 ```latex
 \documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
@@ -311,13 +313,13 @@ Start from this template for every tailoring request. **Modify Summary, all Expe
 \item Architected fully autonomous \textbf{LLM agent workflows} for healthcare systems using \textbf{FastAPI} with a \textbf{three-tier fail-safe architecture}, implementing production-grade exception handling and achieving \textbf{99.9\% uptime} across distributed microservices on \textbf{Google Kubernetes Engine (GKE)}.
 \vspace{1mm}
 
-\item Orchestrated end-to-end workflow automation with \textbf{Apache Airflow DAGs}, integrating \textbf{BigQuery} for data warehousing and \textbf{Google Cloud Redis} for sub-\textbf{300ms inference latency}, processing \textbf{20GB+ per request} with real-time monitoring via \textbf{JIRA dashboards}.
+\item Orchestrated end-to-end workflow automation with \textbf{Apache Airflow DAGs}, integrating \textbf{BigQuery} for data warehousing and \textbf{Google Cloud Redis} for sub-\textbf{300ms} inference latency, processing large-scale workloads (\textbf{20GB+} per request) with real-time monitoring via \textbf{JIRA dashboards}.
 \vspace{1mm}
 
 \item Deployed \textbf{AI agents} with automated task tracking and error recovery, reducing manual intervention by \textbf{85\%} while maintaining built-in compliance and audit trails for healthcare workflows.
 \vspace{1mm}
 
-\item Implemented distributed caching strategies with \textbf{Redis} on \textbf{GCP}, optimizing high-throughput LLM inference pipelines and reducing backend query, while maintaining HIPAA-compliant data handling and encryption standards.
+\item Implemented distributed caching strategies with \textbf{Redis} on \textbf{GCP}, optimizing high-throughput LLM inference pipelines and reducing backend query load while maintaining HIPAA-compliant data handling and encryption standards.
 \vspace{1mm}
 
 \item Architected and deployed \textbf{production-grade Agentic App} components using \textbf{MCP servers} and \textbf{LangGraph}, translating product goals into actionable engineering plans with end-to-end CI/CD observability.
@@ -332,11 +334,11 @@ Start from this template for every tailoring request. **Modify Summary, all Expe
 \vspace{1mm}
 \item Developed \textbf{fairness-aware ML models} for credit risk assessment, implementing \textbf{bias mitigation} and \textbf{fairness evaluation} metrics to ensure equitable predictions across demographic groups, improving approval fairness by \textbf{70\%}.
 \vspace{1mm}
-\item Designed \textbf{robustness benchmarks} for credit-scoring ML models using \textbf{PyTorch}, achieving real-time fraud detection with \textbf{99.8\% robustness} and \textbf{25\%} improved anomaly recall under adversarial conditions.
+\item Designed \textbf{robustness benchmarks} for credit-scoring ML models using \textbf{PyTorch}, achieving \textbf{99.8\%} accuracy under adversarial conditions and improving anomaly recall by \textbf{25\%}.
 \vspace{1mm}
 \item Established \textbf{evaluation protocols} and monitoring dashboards for model safety, integrating \textbf{toxicity} and \textbf{bias metrics} to track model drift and maintain trustworthy AI standards across production systems.
 \vspace{1mm}
-\item Collaborated across product, data science, and compliance teams to embed \textbf{fairness principles} throughout the ML lifecycle, reducing regulatory risk and ensuring \textbf{responsible AI} governance by \textbf{30\%}.
+\item Collaborated across product, data science, and compliance teams to embed \textbf{fairness principles} throughout the ML lifecycle, improving AI governance compliance by \textbf{30\%}.
 \vspace{1mm}
 \item Implemented \textbf{interpretability} techniques for model predictions, providing stakeholders with transparent decision explanations and enabling faster model explainability reviews by \textbf{40\%}.
 \end{itemize}
@@ -346,15 +348,13 @@ Start from this template for every tailoring request. **Modify Summary, all Expe
 \textit{Larsen and Toubro Infotech Mindtree} \hfill \textit{} \\
 \begin{itemize}
 \vspace{1mm}
-\item Built \textbf{evaluation frameworks} for ML models with comprehensive metrics tracking, ensuring \textbf{fairness}, \textbf{robustness}, and \textbf{safety} compliance; achieved \textbf{92.4\% test coverage} with bias and regression detection.
+\item Built comprehensive \textbf{evaluation frameworks} for \textbf{ML classification and regression} models, implementing \textbf{fairness metrics}, robustness testing, and safety validation protocols; achieved \textbf{92.4\%} test coverage with automated bias detection and performance regression detection.
 \vspace{1mm}
-\item Implemented \textbf{MLOps pipelines} with automated \textbf{model evaluation} and \textbf{bias auditing} gates, enabling rapid experimentation with alignment techniques and reducing model deployment time by \textbf{28\%}.
+\item Implemented end-to-end \textbf{MLOps pipelines} with automated model training, validation, and deployment gates, incorporating \textbf{bias auditing} and fairness checks to enable rapid experimentation and reduce deployment cycles by \textbf{28\%}.
 \vspace{1mm}
-\item Engineered distributed ML infrastructure with \textbf{PyTorch} supporting foundation model experimentation, enabling fine-tuning, \textbf{RLHF}, and safety-focused model development across \textbf{10-node GPU clusters}.
+\item Developed scalable ML infrastructure using \textbf{scikit-learn}, \textbf{XGBoost}, and \textbf{LightGBM} for rapid prototyping and production deployment, supporting cross-validation, hyperparameter tuning, and \textbf{A/B testing} workflows across multiple model architectures.
 \vspace{1mm}
-\item Established monitoring and alerting for model safety metrics including toxicity, bias drift, and robustness scores, reducing mean-time-to-detection (\textbf{MTTD}) for model failures by \textbf{42\%} and maintaining \textbf{99.9\%} uptime.
-\vspace{1mm}
-\item Collaborated with cross-functional teams on model governance, documenting fairness trade-offs and safety constraints to embed \textbf{responsible AI principles} throughout the development and deployment lifecycle.
+\item Collaborated with data science and product teams on \textbf{model governance} and ethical AI standards, documenting model trade-offs, fairness constraints, and performance baselines to ensure \textbf{responsible ML} practices throughout the development and deployment lifecycle.
 \end{itemize}
 \vspace{5mm}
 
@@ -382,9 +382,11 @@ Start from this template for every tailoring request. **Modify Summary, all Expe
 \textbf{AI/ML Software and Web Development Intern} \location{Sept 2025 – Jan 2026} \\
 \textit{Essential Knowledge Systems, LLC} \hfill \textit{} \\
 \begin{itemize}
-     \item Developed a knowledge distillation pipeline for the \textbf{GPT-OSS} model using \textbf{Qwen-3 1.5B}, implementing custom loss functions at the PyTorch layer for efficient model inference.
-     \item Designed a web-based wizard at automating the end-to-end distillation workflow, enabling users to configure and trigger model compression directly from dataset inputs through an intuitive multi-step UI.
-
+\vspace{1mm}
+\item Developed a knowledge distillation pipeline for the \textbf{GPT-OSS} model using \textbf{Qwen-3 1.5B}, implementing custom loss functions at the \textbf{PyTorch} layer for efficient model inference.
+\vspace{1mm}
+\item Designed a web-based wizard to automate the end-to-end distillation workflow, enabling users to configure and trigger model compression directly from dataset inputs through an intuitive multi-step UI.
+\vspace{1mm}
 \end{itemize}
 \vspace{3mm}
 
