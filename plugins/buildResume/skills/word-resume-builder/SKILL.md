@@ -1,5 +1,5 @@
 ---
-name: resume-builder
+name: word-resume-builder
 description: Tailors Abinesh Haridoss's Word resume to a job description — rewrites Summary and crisp Action+Task+Method+Result bullets, fills exactly 2 pages with no trailing whitespace, and saves the deliverable as .docx only (never PDF). Use when the user pastes a JD or asks for a Word/docx tailored resume.
 ---
 
