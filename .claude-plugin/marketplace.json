@@ -4,11 +4,11 @@
     "name": "Abinesh",
     "email": "abinesha312@gmail.com"
   },
-  "description": "Claude Code skills collection — ATS-optimized LaTeX resume builder and more",
+  "description": "Claude Code skills collection — ATS-optimized resume builders (LaTeX and Word .docx) and more",
   "plugins": [
     {
       "name": "build-resume",
-      "description": "Build and generate ATS-optimized LaTeX resumes with consistent structure and keyword alignment for technical roles",
+      "description": "Build and tailor ATS-optimized resumes — LaTeX (.tex) or Microsoft Word (.docx) with consistent structure and keyword alignment for technical roles",
       "source": "./plugins/buildResume",
       "category": "productivity"
     }
