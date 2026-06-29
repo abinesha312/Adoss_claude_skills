@@ -1,8 +1,8 @@
 {
   "name": "build-resume",
   "displayName": "Resume Builder (LaTeX + Word)",
-  "description": "Build and tailor ATS-optimized resumes for technical roles — LaTeX (.tex) via latex-resume-builder or Microsoft Word (.docx) via word-resume-builder, with consistent structure and JD keyword alignment",
-  "version": "1.1.1",
+  "description": "Two skills: latex-resume-builder (LaTeX) and word-resume-builder (docx). Ask user which format if unclear. Build and tailor ATS-optimized resumes for technical roles with consistent structure and JD keyword alignment.",
+  "version": "1.2.0",
   "author": {
     "name": "Abinesh",
     "email": "abinesha312@gmail.com"

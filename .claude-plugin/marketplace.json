@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "build-resume",
-      "description": "Build and tailor ATS-optimized resumes — LaTeX (.tex) or Microsoft Word (.docx) with consistent structure and keyword alignment for technical roles",
+      "description": "Two skills: latex-resume-builder (LaTeX) and word-resume-builder (docx). Ask user which format if unclear.",
       "source": "./plugins/buildResume",
       "category": "productivity"
     }

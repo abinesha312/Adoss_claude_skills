@@ -1,0 +1,150 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setstretch{1.1}
+
+\titlespacing\section{0pt}{8pt plus 2pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titleformat{\section}{\bfseries\large}{}{0em}{}[\titlerule]
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=4pt, parsep=0pt, partopsep=0pt}
+
+% Job header: title + right-aligned dates, then company on next line
+\newcommand{\jobentry}[3]{%
+  \vspace{5pt}%
+  \noindent\textbf{#1} \hfill #3\\%
+  \textit{#2}%
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Abinesh Haridoss}}\\[4pt]
+  +1 346-823-9553 \textbar\
+  \href{mailto:abinesha312@gmail.com}{abinesha312@gmail.com} \textbar\
+  \href{https://github.com/abinesha312}{github.com/abinesha312} \textbar\
+  \href{https://www.linkedin.com/in/aharido/}{linkedin.com/in/aharido/} \textbar\
+  \href{https://abineshharidoss.web.app/}{abineshharidoss.web.app}
+\end{center}
+
+\section*{Summary}
+\textbf{Lead AI/ML Engineer} with a Master's and Bachelor's in Computer Science and built robust, fair, and interpretable \textbf{generative AI systems}. I specialize in \textbf{LLM safeguards}, \textbf{fairness evaluation}, \textbf{bias mitigation}, and \textbf{alignment techniques} including RLHF and DPO. I've deployed production-grade \textbf{foundation models} on distributed infrastructure, conducted rigorous \textbf{toxicity analysis} and \textbf{robustness benchmarks}, and led cross-functional efforts to embed \textbf{trustworthy AI principles} throughout the model lifecycle.
+
+\section*{Professional Experience}
+
+\jobentry{Lead Assistant Manager/Consultant - II}{EXLServices — Texas, US}{Dec 2025 -- Present}
+\begin{itemize}
+\item Architected fully autonomous \textbf{LLM agent workflows} for healthcare systems using \textbf{FastAPI} with a \textbf{three-tier fail-safe architecture}, implementing production-grade exception handling and achieving \textbf{99.9\%} uptime across distributed microservices on \textbf{Google Kubernetes Engine (GKE)}.
+\item Orchestrated end-to-end workflow automation with \textbf{Apache Airflow DAGs}, integrating \textbf{BigQuery} for data warehousing and \textbf{Google Cloud Redis} for sub-\textbf{300ms} inference latency, processing large-scale workloads (\textbf{20GB+} per request) with real-time monitoring via \textbf{JIRA dashboards}.
+\item Deployed \textbf{AI agents} with automated task tracking and error recovery, reducing manual intervention by \textbf{85\%} while maintaining built-in compliance and audit trails for healthcare workflows.
+\item Implemented distributed caching strategies with \textbf{Redis} on \textbf{GCP}, optimizing high-throughput LLM inference pipelines and reducing backend query load while maintaining HIPAA-compliant data handling and encryption standards.
+\item Architected and deployed \textbf{production-grade Agentic App} components using \textbf{MCP servers} and \textbf{LangGraph}, translating product goals into actionable engineering plans with end-to-end CI/CD observability.
+\item Collaborated cross-functionally with \textbf{Product and Engineering} teams to deliver \textbf{customer-centric features}, communicating technical trade-offs to leadership and mentoring junior engineers on \textbf{agentic system design}.
+\end{itemize}
+
+\jobentry{Associate Software Developer}{TransUnion — Chennai, India}{Feb 2023 -- Jul 2023}
+\begin{itemize}
+\item Developed \textbf{fairness-aware ML models} for credit risk assessment, implementing \textbf{bias mitigation} and \textbf{fairness evaluation} metrics to ensure equitable predictions across demographic groups, improving approval fairness by \textbf{70\%}.
+\item Designed \textbf{robustness benchmarks} for credit-scoring ML models using \textbf{PyTorch}, achieving \textbf{99.8\%} accuracy under adversarial conditions and improving anomaly recall by \textbf{25\%}.
+\item Established \textbf{evaluation protocols} and monitoring dashboards for model safety, integrating \textbf{toxicity} and \textbf{bias metrics} to track model drift and maintain trustworthy AI standards across production systems.
+\item Collaborated across product, data science, and compliance teams to embed \textbf{fairness principles} throughout the ML lifecycle, improving AI governance compliance by \textbf{30\%}.
+\item Implemented \textbf{interpretability} techniques for model predictions, providing stakeholders with transparent decision explanations and enabling faster model explainability reviews by \textbf{40\%}.
+\end{itemize}
+
+\jobentry{Software Engineer}{Larsen and Toubro Infotech Mindtree — Chennai, India}{Oct 2021 -- Feb 2023}
+\begin{itemize}
+\item Built comprehensive \textbf{evaluation frameworks} for \textbf{ML classification and regression} models, implementing \textbf{fairness metrics}, robustness testing, and safety validation protocols; achieved \textbf{92.4\%} test coverage with automated bias detection and performance regression detection.
+\item Implemented end-to-end \textbf{MLOps pipelines} with automated model training, validation, and deployment gates, incorporating \textbf{bias auditing} and fairness checks to enable rapid experimentation and reduce deployment cycles by \textbf{28\%}.
+\item Developed scalable ML infrastructure using \textbf{scikit-learn}, \textbf{XGBoost}, and \textbf{LightGBM} for rapid prototyping and production deployment, supporting cross-validation, hyperparameter tuning, and \textbf{A/B testing} workflows across multiple model architectures.
+\item Collaborated with data science and product teams on \textbf{model governance} and ethical AI standards, documenting model trade-offs, fairness constraints, and performance baselines to ensure \textbf{responsible ML} practices throughout the development and deployment lifecycle.
+\end{itemize}
+
+\jobentry{Full Stack Developer}{Tanishq \& ProwessIQ Private Limited — Chennai, India}{Mar 2020 -- Sept 2021}
+\begin{itemize}
+\item Implemented secure ML model serving infrastructure with comprehensive \textbf{audit logging}, \textbf{explainability} APIs, and access controls, ensuring model transparency and regulatory compliance across enterprise systems.
+\item Designed infrastructure for responsible data handling and model evaluation, establishing automated \textbf{bias detection} and \textbf{fairness monitoring} pipelines that improved data governance by \textbf{40\%} and reduced security incidents by \textbf{30\%}.
+\item Orchestrated ML infrastructure with automated testing and evaluation gates, supporting \textbf{fairness} and \textbf{safety assessments} before production deployment, reducing model-related incidents by \textbf{60\%} and ensuring \textbf{trustworthy AI} delivery.
+\item Established monitoring systems for model performance and safety metrics, enabling real-time detection of fairness degradation and robustness issues, reducing \textbf{MTTR} for model failures by \textbf{42\%} and maintaining enterprise SLAs.
+\end{itemize}
+
+\section*{Internships}
+
+\jobentry{AI/ML Software and Web Development Intern}{Essential Knowledge Systems, LLC — Texas, US}{Sept 2025 -- Jan 2026}
+\begin{itemize}
+\item Developed a knowledge distillation pipeline for the \textbf{GPT-OSS} model using \textbf{Qwen-3 1.5B}, implementing custom loss functions at the \textbf{PyTorch} layer for efficient model inference.
+\item Designed a web-based wizard to automate the end-to-end distillation workflow, enabling users to configure and trigger model compression directly from dataset inputs through an intuitive multi-step UI.
+\end{itemize}
+
+\jobentry{Graduate-level research intern}{Turing — Texas, US}{Sept 2025 -- Feb 2026}
+\begin{itemize}
+\item Designed \textbf{LLM fine-tuning} workflows with automated \textbf{fairness evaluation} and \textbf{bias auditing} mechanisms, improving labeling consistency by \textbf{25\%} and reducing annotation errors by \textbf{30\%} through rigorous quality gates.
+\item Orchestrated multi-modal \textbf{LLM training pipelines} using \textbf{PyTorch} and \textbf{HuggingFace Transformers}, implementing \textbf{instruction tuning} and \textbf{alignment protocols} to enhance model safety and reduce harmful outputs by \textbf{35\%}.
+\item Conducted \textbf{bias audits} and \textbf{fairness evaluations} on training data, identifying and mitigating demographic disparities to improve model safety by \textbf{25\%}.
+\end{itemize}
+
+\jobentry{Summer Intern/AI-ML Engineer}{Worlds Enterprise Inc. — Texas, US}{Jul 2025 -- September 2025}
+\begin{itemize}
+\item Implemented \textbf{red teaming pipelines} to systematically identify adversarial inputs and safety gaps in \textbf{foundation models}, enabling proactive \textbf{robustness} evaluation and iterative model hardening.
+\item Developed \textbf{bias mitigation strategies} for anomaly detection systems, conducting \textbf{bias audits} and achieving \textbf{25\%} improvement in fairness across demographic groups.
+\item Architected \textbf{explainability} frameworks for LLM-driven workflows, integrating \textbf{interpretability} techniques to provide transparent reasoning and audit trails, improving user trust and regulatory compliance.
+\end{itemize}
+
+\jobentry{AI Engineer/Student Assistant}{University of North Texas — Texas, US}{May 2024 -- May 2025}
+\begin{itemize}
+\item Deployed \textbf{foundation model evaluation frameworks} across \textbf{80+ departments}, implementing \textbf{robustness benchmarks}, \textbf{toxicity analysis}, and \textbf{fairness assessment protocols} to ensure safe model deployment.
+\item Configured and deployed \textbf{multi-modal foundation models} (LLaMA 3.2 90B) on GPU infrastructure, implementing \textbf{prompt engineering} best practices and \textbf{instruction tuning} to enhance model alignment and reduce hallucinations.
+\item Designed \textbf{rigorous evaluation protocols} with custom \textbf{bias audit frameworks}, measuring model fairness across protected attributes and toxicity thresholds, reducing failure rates by \textbf{30\%} and improving model trustworthiness.
+\item Conducted systematic \textbf{red teaming} to identify model vulnerabilities, documenting adversarial examples and safety edge cases, informing iterative model improvements and safeguard development for \textbf{responsible AI}.
+\item Fine-tuned \textbf{foundation models} using \textbf{PyTorch} with domain-specific, bias-balanced datasets, improving model safety and fairness while maintaining \textbf{15\%} reduction in demographic bias and \textbf{20\%} improvement in task performance.
+\end{itemize}
+
+\section*{Projects}
+
+\noindent\textbf{Fraud Folio} \textbar\ \textit{AI, Fraud Detection, Meta Llama 3} \hfill \href{https://github.com/abinesha312/hack_unt_financial_fraud.git}{\faExternalLink}
+\begin{itemize}
+\item Engineered a custom \textbf{anomaly detection pipeline} utilizing \textbf{Meta Llama 3} with CUDA optimization for real-time fraud detection, demonstrating expertise in production-ready LLM systems.
+\end{itemize}
+
+\vspace{4pt}
+\noindent\textbf{Hybrid Vision Transformer for Small-Scale Image Classification} \textbar\ \textit{PyTorch, Transformers, MixUp, CutMix} \hfill \href{https://github.com/abinesha312/vision-transformer-cifar}{\faExternalLink}
+\begin{itemize}
+\item Developed a \textbf{Hybrid Vision Transformer} combining CNNs and transformers for CIFAR-10 classification, improving feature extraction and model interpretability through attention visualization.
+\end{itemize}
+
+\section*{Education}
+
+\jobentry{Master of Science in Computer Science}{University of North Texas}{Aug. 2023 -- 2025}
+Relevant Courses: Machine Learning, Algorithms, AI Software Development, Information Retrieval, Big Data and Data Science
+
+\jobentry{Bachelor of Engineering in Information Science and Engineering}{Panimalar Engineering college Affiliated to Anna University}{May. 2021}
+Relevant Courses: Operating Systems, Data Structures, DBMS, Computer Networks, Object Oriented Concepts, deep learning
+
+\section*{Technical Skills}
+\begin{itemize}
+\item \textbf{Programming Languages:} Python, C++, JavaScript, TypeScript, Bash, PowerShell, Shell Scripting.
+\item \textbf{ML/DL Frameworks:} PyTorch, TensorFlow, HuggingFace Transformers, ONNX, LangChain, OpenAI API
+\item \textbf{Responsible AI \& Safety:} Fairness Evaluation, Bias Auditing, Toxicity Analysis, Red Teaming, Model Alignment, RLHF, DPO, Instruction Tuning, Explainability, Interpretability
+\item \textbf{Distributed Training:} PyTorch (FSDP, DDP), Distributed Evaluation Frameworks, NVIDIA Nsight Systems
+\item \textbf{Databases:} Redis, MongoDB, DynamoDB, Postgres, Databricks, MySQL
+\item \textbf{Cloud \& DevOps:} AWS (Lambda, API Gateway, S3, ECS, EKS), Docker, Terraform, MLOps, Model Monitoring
+\end{itemize}
+
+\end{document}
