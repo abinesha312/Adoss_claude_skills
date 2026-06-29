@@ -8,9 +8,15 @@
   "plugins": [
     {
       "name": "build-resume",
-      "description": "Two skills: latex-resume-builder (LaTeX) and word-resume-builder (docx). Ask user which format if unclear.",
+      "displayName": "Resume Builder (LaTeX + Word)",
+      "description": "Two skills: latex-resume-builder (.tex/Overleaf) and word-resume-builder (.docx). Ask which format if unclear.",
+      "version": "1.2.2",
       "source": "./plugins/buildResume",
-      "category": "productivity"
+      "category": "productivity",
+      "skills": [
+        "./skills/latex-resume-builder",
+        "./skills/word-resume-builder"
+      ]
     }
   ]
 }

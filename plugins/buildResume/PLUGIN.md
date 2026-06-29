@@ -2,10 +2,10 @@
 
 Two skills for tailoring Abinesh Haridoss's resume to a job description:
 
-| Skill | Output |
-| --- | --- |
-| `latex-resume-builder` | Raw LaTeX (`.tex`) for Overleaf |
-| `word-resume-builder` | Microsoft Word (`.docx` only — never PDF) |
+| Skill | Slash command | Output |
+| --- | --- | --- |
+| `latex-resume-builder` | `/latex-resume-builder` | Raw LaTeX (`.tex`) for Overleaf |
+| `word-resume-builder` | `/word-resume-builder` | Microsoft Word (`.docx` only — never PDF) |
 
 If the user does not specify format, ask: **LaTeX (.tex) or Word (.docx)?**
 
@@ -14,27 +14,30 @@ If the user does not specify format, ask: **LaTeX (.tex) or Word (.docx)?**
 - **latex-resume-builder** → `.tex` / Overleaf
 - **word-resume-builder** → `.docx` only (never PDF)
 
-Shared reference files live under `skills/shared/` (candidate profile, bullet strategy, checklist).
+Shared reference files live under `skills/shared/` (not a skill — reference only).
 
-## After updating
+## Fix stale "LaTeX Resume Builder" card (UI steps)
+
+If the Plugins tab still shows the old **"LaTeX Resume Builder"** card, Claude is using a cached copy of an old marketplace entry. The repo is already fixed; you must re-sync:
+
+1. Open **Directory → Plugins → Personal**.
+2. Click **`...`** next to **Adoss_claude_skills**.
+3. Choose **Remove** (or **Refresh / Sync** if available).
+4. Click **`+`** and re-add the marketplace: `abinesha312/Adoss_claude_skills`.
+5. The card should now read **"Resume Builder (LaTeX + Word)"** — click **`+`** to install.
+6. Open **Directory → Skills** — confirm **both** appear:
+   - `latex-resume-builder`
+   - `word-resume-builder`
+
+## After updating (CLI alternative)
 
 ```bash
 claude plugin update build-resume@adoss-claude-skills
-```
-
-Then in Claude Code:
-
-```
 /reload-plugins
-```
-
-Verify both skills appear:
-
-```bash
 claude plugin list
 ```
 
-Expected: `build-resume` shows **both** `latex-resume-builder` and `word-resume-builder`.
+Expected: `build-resume` v1.2.2 shows **both** skills.
 
 ## Routing tests
 
