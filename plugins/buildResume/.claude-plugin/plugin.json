@@ -1,13 +1,12 @@
 {
   "name": "build-resume",
   "displayName": "Resume Builder (LaTeX + Word)",
-  "description": "Two skills: latex-resume-builder (LaTeX) and word-resume-builder (docx). Ask user which format if unclear. Build and tailor ATS-optimized resumes for technical roles with consistent structure and JD keyword alignment.",
-  "version": "1.2.0",
+  "description": "Two skills: latex-resume-builder (.tex/Overleaf) and word-resume-builder (.docx). Tailors ATS-optimized resumes to a JD; ask which format if unclear.",
+  "version": "1.2.1",
   "author": {
     "name": "Abinesh",
     "email": "abinesha312@gmail.com"
   },
   "homepage": "https://github.com/abinesha312/Adoss_claude_skills",
-  "keywords": ["resume", "latex", "word", "docx", "ats", "career"],
-  "skills": "./skills"
+  "keywords": ["resume", "latex", "word", "docx", "ats", "career"]
 }
