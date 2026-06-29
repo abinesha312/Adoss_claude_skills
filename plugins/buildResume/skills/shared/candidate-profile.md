@@ -19,8 +19,8 @@
 | 2 | Associate Software Developer | Trans Union | Feb 2023 – Jul 2023 | Professional Experience | Chennai, India |
 | 3 | Software Engineer | LTIMindtree (Larsen and Toubro Infotech Mindtree) | Oct 2021 – Feb 2023 | Professional Experience | Chennai, India |
 | 4 | Full Stack Developer | Tanishq & ProwessIQ Private Limited | Mar 2020 – Sep 2021 | Professional Experience | Chennai, India |
-| 5 | AI/ML Software and Web Development Intern | Essential Knowledge Systems, LLC | Sep 2025 – Jan 2026 | Internships | Texas, US |
-| 6 | Graduate-level research intern | Turing | Sep 2025 – Feb 2026 | Internships | Texas, US |
+| 5 | LLM Engineer | Turing | Sep 2025 – Feb 2026 | Professional Experience | Texas, US |
+| 6 | AI/ML Software and Web Development Intern | Essential Knowledge Systems, LLC | Sep 2025 – Jan 2026 | Internships | Texas, US |
 | 7 | Summer Intern/AI-ML Engineer | Worlds Enterprise Inc. | Jul 2025 – Sep 2025 | Internships | Texas, US |
 | 8 | AI Engineer/Student Assistant | University of North Texas | May 2024 – May 2025 | Internships | Texas, US |
 
@@ -58,8 +58,8 @@
 
 1. Contact Header
 2. Summary
-3. Professional Experience (roles 1–4)
-4. Internships (roles 5–8)
+3. Professional Experience (roles 1–5)
+4. Internships (roles 6–8)
 5. Projects (≤4 from pool)
 6. Education
 7. Technical Skills

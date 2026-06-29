@@ -22,6 +22,12 @@ _EXLServices — Texas, US_
 • Architected and deployed production-grade Agentic App components using MCP servers and LangGraph, translating product goals into actionable engineering plans with end-to-end CI/CD observability.
 • Collaborated cross-functionally with Product and Engineering teams to deliver customer-centric features, communicating technical trade-offs to leadership and mentoring junior engineers on agentic system design.
 
+**LLM Engineer** — Sep 2025 – Feb 2026
+_Turing — Texas, US_
+• Designed LLM fine-tuning workflows with automated fairness evaluation and bias auditing mechanisms, improving labeling consistency by **25%** and reducing annotation errors by **30%** through rigorous quality gates.
+• Orchestrated multi-modal LLM training pipelines using PyTorch and HuggingFace Transformers, implementing instruction tuning and alignment protocols to enhance model safety and reduce harmful outputs by **35%**.
+• Conducted bias audits and fairness evaluations on training data, identifying and mitigating demographic disparities to improve model safety by **25%**.
+
 **Associate Software Developer** — Feb 2023 – Jul 2023
 _Trans Union — Chennai, India_
 • Developed fairness-aware ML models for credit risk assessment, implementing bias mitigation and fairness evaluation metrics to ensure equitable predictions across demographic groups, improving approval fairness by **70%**.
@@ -50,12 +56,6 @@ _Tanishq & ProwessIQ Private Limited — Chennai, India_
 _Essential Knowledge Systems, LLC — Texas, US_
 • Developed a knowledge distillation pipeline for the GPT-OSS model using Qwen-3 1.5B, implementing custom loss functions at the PyTorch layer for efficient model inference.
 • Designed a web-based wizard to automate the end-to-end distillation workflow, enabling users to configure and trigger model compression directly from dataset inputs through an intuitive multi-step UI.
-
-**Graduate-level research intern** — Sep 2025 – Feb 2026
-_Turing — Texas, US_
-• Designed LLM fine-tuning workflows with automated fairness evaluation and bias auditing mechanisms, improving labeling consistency by **25%** and reducing annotation errors by **30%** through rigorous quality gates.
-• Orchestrated multi-modal LLM training pipelines using PyTorch and HuggingFace Transformers, implementing instruction tuning and alignment protocols to enhance model safety and reduce harmful outputs by **35%**.
-• Conducted bias audits and fairness evaluations on training data, identifying and mitigating demographic disparities to improve model safety by **25%**.
 
 **Summer Intern/AI-ML Engineer** — Jul 2025 – Sep 2025
 _Worlds Enterprise Inc. — Texas, US_

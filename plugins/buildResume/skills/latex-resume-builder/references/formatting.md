@@ -52,8 +52,8 @@ Include location in company line: `\jobentry{Title}{Company — Location}{Start 
 
 1. Contact Header
 2. Summary
-3. Professional Experience (roles 1–4)
-4. Internships (roles 5–8)
+3. Professional Experience (roles 1–5)
+4. Internships (roles 6–8)
 5. Projects
 6. Education
 7. Technical Skills
