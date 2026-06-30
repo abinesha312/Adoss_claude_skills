@@ -142,12 +142,16 @@ Background is embedded in reference files. **Do not ask the user to re-paste wor
 
 ### Job header
 
+Title left, dates **right-aligned** on the same line via `\hfill` inside `\jobentry`:
+
 ```latex
-\jobentry{Job Title}{Company — Location}{Start -- End}
+\jobentry{Full Stack Developer}{Tanishq \& ProwessIQ Private Limited — Chennai, India}{Mar 2020 -- Sept 2021}
 \begin{itemize}
 \item Crisp bullet — bold metrics only, e.g., achieving \textbf{99.9\%} uptime.
 \end{itemize}
 ```
+
+Never put dates inline after the title (e.g., `\textbf{Title} — Dates`). Always pass dates as the **third** `\jobentry` argument.
 
 ### Spacing rules
 

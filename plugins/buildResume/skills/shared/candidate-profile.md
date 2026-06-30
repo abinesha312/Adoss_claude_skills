@@ -24,7 +24,7 @@
 | 7 | Summer Intern/AI-ML Engineer | Worlds Enterprise Inc. | Jul 2025 – Sep 2025 | Internships | Texas, US |
 | 8 | AI Engineer/Student Assistant | University of North Texas | May 2024 – May 2025 | Internships | Texas, US |
 
-**Job header format:** Title + dates on one line; company + location on the next line (e.g., `EXLServices — Texas, US`).
+**Job header format:** Bold title on the left, dates right-aligned at the right margin (Word: tab stop; LaTeX: `\jobentry` third arg with `\hfill`); company + location on the next line (e.g., `EXLServices — Texas, US`).
 
 ## Education (NEVER change)
 

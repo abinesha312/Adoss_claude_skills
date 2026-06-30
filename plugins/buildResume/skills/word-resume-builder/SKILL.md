@@ -147,10 +147,12 @@ Background is embedded in reference files. **Do not ask the user to re-paste wor
 ### Job header
 
 ```
-[Bold] Lead Assistant Manager/Consultant - II          Dec 2025 – Present
-[Italic] EXLServices — Texas, US
+[Bold] Full Stack Developer                              Mar 2020 – Sep 2021
+[Italic] Tanishq & ProwessIQ Private Limited — Chennai, India
 • Bullet with metric bold only — achieving 99.9% uptime on GKE.
 ```
+
+Title left, dates **right-aligned** on the same line (tab stop at right margin — see `build-docx.md`).
 
 ### Formatting rules
 

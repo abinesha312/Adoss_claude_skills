@@ -39,14 +39,25 @@ Read `baseline.tex` for full starting template. Apply tailoring to Summary, bull
 
 ## Job header pattern
 
-Include location in company line: `\jobentry{Title}{Company — Location}{Start -- End}`
+**Title on the left, dates on the right** (same line). The `\jobentry` macro uses `\hfill` to push dates to the right margin. Company + location on the line below in italics.
+
+Always use `\jobentry{Title}{Company — Location}{Start -- End}` — never put dates inline after the title.
 
 ```latex
-\jobentry{Lead Assistant Manager/Consultant - II}{EXLServices — Texas, US}{Dec 2025 -- Present}
+\jobentry{Full Stack Developer}{Tanishq \& ProwessIQ Private Limited — Chennai, India}{Mar 2020 -- Sept 2021}
 \begin{itemize}
 \item Single crisp bullet — no \vspace inside this environment.
 \end{itemize}
 ```
+
+Renders as:
+
+```
+Full Stack Developer                                    Mar 2020 -- Sept 2021
+Tanishq & ProwessIQ Private Limited — Chennai, India
+```
+
+The third argument (`Mar 2020 -- Sept 2021`) is always right-aligned via `\hfill`. Use `--` (LaTeX en-dash), not Unicode `–`.
 
 ## Section order (fixed)
 
@@ -65,10 +76,12 @@ Include location in company line: `\jobentry{Title}{Company — Location}{Start 
    \vspace{1mm}
    \item Bullet text
 
+❌ \textbf{Full Stack Developer} — Mar 2020 -- Sept 2021 \\   % dates inline, not right-aligned
+
 ❌ \textbf{Title} \location{Dates} \\
    \textit{Company} \hfill \textit{} \\
 
-✅ \jobentry{Title}{Company — Location}{Dates}
+✅ \jobentry{Full Stack Developer}{Company — Location}{Mar 2020 -- Sept 2021}
    \begin{itemize}
    \item Bullet text
    \end{itemize}

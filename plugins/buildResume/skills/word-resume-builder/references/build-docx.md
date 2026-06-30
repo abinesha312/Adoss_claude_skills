@@ -34,7 +34,7 @@ pip install python-docx
 | --- | --- |
 | Contact block | Centered paragraph, bold name, hyperlinks for email/URLs |
 | Section title | `Heading 2` or bold 12 pt + 4 pt spacing after |
-| Job title line | Bold title + tab + right-aligned dates (tab stop at right margin) |
+| Job title line | Bold title on left + tab + dates **right-aligned** at right margin (tab stop at 6.5 in) |
 | Company line | Italic; append location from profile (e.g., `EXLServices — Texas, US`) |
 | Bullets | `document.add_paragraph(text, style='List Bullet')` — one achievement each |
 | Metrics bold | `run.bold = True` **only on numeric metrics** (85%, 99.9%) |
@@ -44,10 +44,25 @@ pip install python-docx
 ## Job header pattern
 
 ```
-[Bold] Lead Assistant Manager/Consultant - II          Dec 2025 – Present
-[Italic] EXLServices — Texas, US
+[Bold] Full Stack Developer                              Mar 2020 – Sep 2021
+[Italic] Tanishq & ProwessIQ Private Limited — Chennai, India
 • First bullet — crisp one line, metric bold only (e.g., 99.9%).
 • Second bullet — no empty paragraph between bullets.
+```
+
+Title on the **left**, dates on the **right** (same line). Never place dates inline after an em dash.
+
+### python-docx tab stop (required for every job/education header)
+
+```python
+from docx.enum.text import WD_TAB_ALIGNMENT
+from docx.shared import Inches
+
+paragraph = document.add_paragraph()
+paragraph.paragraph_format.tab_stops.add_tab_stop(Inches(6.5), WD_TAB_ALIGNMENT.RIGHT)
+title = paragraph.add_run("Full Stack Developer")
+title.bold = True
+paragraph.add_run("\tMar 2020 – Sep 2021")
 ```
 
 ## Formatting anti-patterns
@@ -56,7 +71,7 @@ pip install python-docx
 ❌ Empty paragraph between each bullet
 ❌ Text boxes or tables for layout
 ❌ Multiple fonts or colors
-❌ Bold on every tool name in bullets
+❌ **Title** — Dates inline after em dash (dates must be right-aligned via tab stop)
 
 ✅ List Bullet style, consecutive items
 ✅ Job header → bullets → 6 pt gap → next job header

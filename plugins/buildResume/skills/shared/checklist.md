@@ -34,7 +34,7 @@ Execute tailoring in this order, then verify every item below.
 
 ## LaTeX-specific (latex-resume-builder only)
 
-- [ ] No `\vspace` inside `itemize`; `\jobentry{}{}{}` for every role header
+- [ ] No `\vspace` inside `itemize`; `\jobentry{}{}{}` for every role/education header; dates in arg 3 (right-aligned via `\hfill`)
 - [ ] Margins 1in; Helvetica 11pt; `\setstretch{1.1}` unchanged
 - [ ] Valid LaTeX — `\textbf{}`, `\href{}`, `\item`, `\\` syntax correct; no trailing spaces
 - [ ] Output is **raw LaTeX only** — no markdown fences
@@ -42,7 +42,7 @@ Execute tailoring in this order, then verify every item below.
 ## Word-specific (word-resume-builder only)
 
 - [ ] List Bullet style; no empty paragraphs between bullets
-- [ ] Job headers: bold title + dates; italic company — location
+- [ ] Job headers: bold title left, dates right-aligned (tab stop); italic company — location
 - [ ] Margins 1in; Calibri/Arial 11pt; line spacing 1.08–1.15
 - [ ] Saved to `plugins/buildResume/tailored_resume.docx` — return file path only
 - [ ] **DOCX only** — never PDF
