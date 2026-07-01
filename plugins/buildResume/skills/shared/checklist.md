@@ -39,10 +39,17 @@ Execute tailoring in this order, then verify every item below.
 - [ ] Valid LaTeX — `\textbf{}`, `\href{}`, `\item`, `\\` syntax correct; no trailing spaces
 - [ ] Output is **raw LaTeX only** — no markdown fences
 
-## Word-specific (word-resume-builder only)
+## Word-specific (word-resume-builder only — Workday / strict-ATS specialized)
 
 - [ ] List Bullet style; no empty paragraphs between bullets
-- [ ] Job headers: bold title left, dates right-aligned (tab stop); italic company — location
+- [ ] Job headers: bold title left, dates right-aligned (tab stop, never a table); italic company — location
 - [ ] Margins 1in; Calibri/Arial 11pt; line spacing 1.08–1.15
-- [ ] Saved to `plugins/buildResume/tailored_resume.docx` — return file path only
+- [ ] **No tables, text boxes, or graphics** anywhere in the document
+- [ ] **Contact info in the document body** — header/footer left empty (Workday strips them)
+- [ ] **Literal section headers** — `Professional Experience` / `Internships` / `Projects` / `Education` / `Technical Skills`
+- [ ] **Dates in `Month YYYY` format** (e.g., `December 2025`), `Present` for current role
+- [ ] Notepad-test passes — text flows top-to-bottom in document order
+- [ ] Saved to `plugins/buildResume/Abinesh-Haridoss-Resume.docx` — return file path only
 - [ ] **DOCX only** — never PDF
+
+Full rationale: `word-resume-builder/references/ats-strict-rules.md`.

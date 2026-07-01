@@ -26,6 +26,8 @@
 
 **Job header format:** Bold title on the left, dates right-aligned at the right margin (Word: tab stop; LaTeX: `\jobentry` third arg with `\hfill`); company + location on the next line (e.g., `EXLServices — Texas, US`).
 
+**Date display format:** Dates above are the source of truth. LaTeX keeps them abbreviated (`Dec 2025`, Overleaf convention). Word displays them as full `Month YYYY` (`December 2025`) per Workday/strict-ATS requirements — see `word-resume-builder/references/ats-strict-rules.md`. This is a display-format difference only; the underlying date value never changes between formats.
+
 ## Education (NEVER change)
 
 - **Master of Science in Computer Science** — University of North Texas — Aug 2023 – 2025

@@ -3,7 +3,7 @@ name: latex-resume-builder
 description: >-
   Builds Abinesh Haridoss's resume as raw LaTeX (.tex) tailored to a job description.
   Use ONLY when the user wants LaTeX, .tex, or Overleaf output.
-  Do NOT use for Word, .docx, or Microsoft Word requests — use word-resume-builder instead.
+  Do NOT use for Word, .docx, Microsoft Word, Workday, or strict-ATS requests — use word-resume-builder instead.
   Triggers: LaTeX resume, tex resume, Overleaf, ATS optimize LaTeX.
 ---
 
@@ -20,6 +20,7 @@ description: >-
 ### WHEN NOT TO USE
 
 - User wants **Word**, **.docx**, or **Microsoft Word** → use **word-resume-builder**
+- User mentions **Workday**, **Taleo**, **iCIMS**, **Greenhouse**, **SuccessFactors**, or "strict ATS format" by name → use **word-resume-builder** (specialized for strict-ATS parsers)
 - User wants PDF only without LaTeX source → ask if they want `.tex` (this skill) or `.docx` (Word skill)
 
 ### NON-NEGOTIABLES

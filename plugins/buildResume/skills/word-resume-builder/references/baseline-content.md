@@ -4,6 +4,8 @@ Structured starting text for every tailoring request. **Modify Summary, Experien
 
 **Job title line format:** `[Bold Title]` + tab + `[Dates]` — dates **right-aligned** at the right margin (same line as title). Company + location on the line below in italics.
 
+**Dates use full `Month YYYY` format** (Workday/strict-ATS requirement — see `ats-strict-rules.md`) — never abbreviated (`Dec 2025`) or numeric (`12/25`). This is a display-format convention only; the underlying date value matches `../shared/candidate-profile.md` exactly.
+
 ## Contact Header (centered)
 
 **Abinesh Haridoss**
@@ -15,7 +17,7 @@ Lead AI/ML Engineer with a Master's and Bachelor's in Computer Science and built
 
 ## Professional Experience
 
-**Lead Assistant Manager/Consultant - II**	Dec 2025 – Present
+**Lead Assistant Manager/Consultant - II**	December 2025 – Present
 _EXLServices — Texas, US_
 • Architected fully autonomous LLM agent workflows for healthcare systems using FastAPI with a three-tier fail-safe architecture, implementing production-grade exception handling and achieving **99.9%** uptime across distributed microservices on Google Kubernetes Engine (GKE).
 • Orchestrated end-to-end workflow automation with Apache Airflow DAGs, integrating BigQuery for data warehousing and Google Cloud Redis for sub-300ms inference latency, processing large-scale workloads (20GB+ per request) with real-time monitoring via JIRA dashboards.
@@ -24,13 +26,13 @@ _EXLServices — Texas, US_
 • Architected and deployed production-grade Agentic App components using MCP servers and LangGraph, translating product goals into actionable engineering plans with end-to-end CI/CD observability.
 • Collaborated cross-functionally with Product and Engineering teams to deliver customer-centric features, communicating technical trade-offs to leadership and mentoring junior engineers on agentic system design.
 
-**LLM Engineer**	Sep 2025 – Feb 2026
+**LLM Engineer**	September 2025 – February 2026
 _Turing — Texas, US_
 • Designed LLM fine-tuning workflows with automated fairness evaluation and bias auditing mechanisms, improving labeling consistency by **25%** and reducing annotation errors by **30%** through rigorous quality gates.
 • Orchestrated multi-modal LLM training pipelines using PyTorch and HuggingFace Transformers, implementing instruction tuning and alignment protocols to enhance model safety and reduce harmful outputs by **35%**.
 • Conducted bias audits and fairness evaluations on training data, identifying and mitigating demographic disparities to improve model safety by **25%**.
 
-**Associate Software Developer**	Feb 2023 – Jul 2023
+**Associate Software Developer**	February 2023 – July 2023
 _Trans Union — Chennai, India_
 • Developed fairness-aware ML models for credit risk assessment, implementing bias mitigation and fairness evaluation metrics to ensure equitable predictions across demographic groups, improving approval fairness by **70%**.
 • Designed robustness benchmarks for credit-scoring ML models using PyTorch, achieving **99.8%** accuracy under adversarial conditions and improving anomaly recall by **25%**.
@@ -38,14 +40,14 @@ _Trans Union — Chennai, India_
 • Collaborated across product, data science, and compliance teams to embed fairness principles throughout the ML lifecycle, improving AI governance compliance by **30%**.
 • Implemented interpretability techniques for model predictions, providing stakeholders with transparent decision explanations and enabling faster model explainability reviews by **40%**.
 
-**Software Engineer**	Oct 2021 – Feb 2023
+**Software Engineer**	October 2021 – February 2023
 _LTIMindtree (Larsen and Toubro Infotech Mindtree) — Chennai, India_
 • Built comprehensive evaluation frameworks for ML classification and regression models, implementing fairness metrics, robustness testing, and safety validation protocols; achieved **92.4%** test coverage with automated bias detection and performance regression detection.
 • Implemented end-to-end MLOps pipelines with automated model training, validation, and deployment gates, incorporating bias auditing and fairness checks to enable rapid experimentation and reduce deployment cycles by **28%**.
 • Developed scalable ML infrastructure using scikit-learn, XGBoost, and LightGBM for rapid prototyping and production deployment, supporting cross-validation, hyperparameter tuning, and A/B testing workflows across multiple model architectures.
 • Collaborated with data science and product teams on model governance and ethical AI standards, documenting model trade-offs, fairness constraints, and performance baselines to ensure responsible ML practices throughout the development and deployment lifecycle.
 
-**Full Stack Developer**	Mar 2020 – Sep 2021
+**Full Stack Developer**	March 2020 – September 2021
 _Tanishq & ProwessIQ Private Limited — Chennai, India_
 • Implemented secure ML model serving infrastructure with comprehensive audit logging, explainability APIs, and access controls, ensuring model transparency and regulatory compliance across enterprise systems.
 • Designed infrastructure for responsible data handling and model evaluation, establishing automated bias detection and fairness monitoring pipelines that improved data governance by **40%** and reduced security incidents by **30%**.
@@ -54,12 +56,12 @@ _Tanishq & ProwessIQ Private Limited — Chennai, India_
 
 ## Internships
 
-**AI/ML Software and Web Development Intern**	Sep 2025 – Jan 2026
+**AI/ML Software and Web Development Intern**	September 2025 – January 2026
 _Essential Knowledge Systems, LLC — Texas, US_
 • Developed a knowledge distillation pipeline for the GPT-OSS model using Qwen-3 1.5B, implementing custom loss functions at the PyTorch layer for efficient model inference.
 • Designed a web-based wizard to automate the end-to-end distillation workflow, enabling users to configure and trigger model compression directly from dataset inputs through an intuitive multi-step UI.
 
-**Summer Intern/AI-ML Engineer**	Jul 2025 – Sep 2025
+**Summer Intern/AI-ML Engineer**	July 2025 – September 2025
 _Worlds Enterprise Inc. — Texas, US_
 • Implemented red teaming pipelines to systematically identify adversarial inputs and safety gaps in foundation models, enabling proactive robustness evaluation and iterative model hardening.
 • Developed bias mitigation strategies for anomaly detection systems, conducting bias audits and achieving **25%** improvement in fairness across demographic groups.
@@ -83,7 +85,7 @@ _University of North Texas — Texas, US_
 
 ## Education
 
-**Master of Science in Computer Science**	Aug 2023 – 2025
+**Master of Science in Computer Science**	August 2023 – 2025
 _University of North Texas_
 Relevant Courses: Machine Learning, Algorithms, AI Software Development, Information Retrieval, Big Data and Data Science
 
